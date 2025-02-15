@@ -1,0 +1,30 @@
+{
+    "perguntas": [
+        {
+            "id": 1,
+            "pergunta": "ela é boaaa???",
+            "pergunta_pai": null
+        },
+        {
+            "id": 2,
+            "pergunta": "ela é ruim?",
+            "pergunta_pai": null
+        },
+        {
+            "id": 3,
+            "pergunta": "essa coisa é boa relacionada?",
+            "pergunta_pai": "ela é boaaa???"
+        }
+    ],
+    "teses": [
+        {
+            "id": 1,
+            "tese": "tese 1",
+            "perguntas": [
+                1,
+                2
+            ]
+        }
+    ],
+    "questionarios": []
+}
